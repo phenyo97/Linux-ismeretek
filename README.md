@@ -1,5 +1,5 @@
 # Linux-ismeretek
 
-#Lottó szám generátor
+Lottó szám generátor
 
-#Minden kódhoz tartozó dokumetálás a wiki-ben található
+Minden kódhoz tartozó dokumetálás a wiki-ben található
