@@ -7,7 +7,7 @@ tickets="$1"
 printf "Üdvözöljük az Ötöslottó szelvény váltó oldalán! \n\n";
 function get_tickets { printf "Hány szelvényt szeretnél vásárolni? \n"; read tickets;}
 
-function gen_numbers { printf "Ezek a szelvényeid: \n";
+function gen_numbers { printf "Ezek az Ön szelvényei: \n";
 	for ((z = 0; z<tickets ; z++)); do
 		i=0
 		used=( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
